@@ -12,22 +12,22 @@ namespace Zadania_warunki_Week_2_Lesson_7
             Console.WriteLine("Zadanie nr 1");
 
             Console.WriteLine("Podaj pierwszą cyfrę ...");
-            int number1 = int.Parse(Console.ReadLine());
+            int number = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Podaj drugą cyfrę ...");
-            int number2 = int.Parse(Console.ReadLine());
+            int number1 = int.Parse(Console.ReadLine());
 
-            if (number1 == number2)
+            if (number == number1)
             {
-                Console.WriteLine("Cyfry {0} i {1} są równe.", number1, number2);
+                Console.WriteLine("Cyfry {0} i {1} są równe.", number, number1);
             }
             else
             {
-                Console.WriteLine("Cyfry {0} i {1} nie są równe.", number1, number2);
+                Console.WriteLine("Cyfry {0} i {1} nie są równe.", number, number1);
             }
 
             // wersja druga
-            Console.WriteLine(number1 == number2 ? $"Cyfry {number1} i {number2} są równe." : $"Cyfry {number1} i {number2} nie są równe.");
+            Console.WriteLine(number == number1 ? $"Cyfry {number} i {number1} są równe." : $"Cyfry {number} i {number1} nie są równe.");
 
             // 2. Napisz program w C#, który sprawdzi czy podana przez użytkownika liczba jest parzysta czy nieparzysta.
 
@@ -35,11 +35,10 @@ namespace Zadania_warunki_Week_2_Lesson_7
             
             Console.WriteLine("Sprawdz czy dana liczba jest parzysta.");
             Console.WriteLine("Podaj liczbę ...");
-
-            int number3 = int.Parse(Console.ReadLine());
-            double result1 = number3 % 2;
-
-            Console.WriteLine(result1 == 0 ? $"{number3} jest liczbą parzysta" : $"{number3} jest liczbą NIEparzysta");
+            int number2 = int.Parse(Console.ReadLine());
+            
+            double result1 = number2 % 2;
+            Console.WriteLine(result1 == 0 ? $"{number2} jest liczbą parzysta" : $"{number2} jest liczbą NIEparzysta");
 
             // 3. Napisz program w C#, który sprawdzi czy podana przez użytkownika liczba jest dodatnia czy ujemna.
 
@@ -47,10 +46,18 @@ namespace Zadania_warunki_Week_2_Lesson_7
             
             Console.WriteLine("Sprawdz czy dana liczba jest dodatnia.");
             Console.WriteLine("Podaj liczbę ...");
+            int number3 = int.Parse(Console.ReadLine());
 
+            Console.WriteLine( number3 >=0 ? $"{number3} jest liczbą dodatnią" : $"{number3} jest liczbą ujemną");
+
+            // 4. Napisz program w C#, który sprawdzi czy podany przez użytkownika rok jest rokiem przestępnym.
+
+            Console.WriteLine("\nZadanie nr 4");
+
+            Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
+            Console.WriteLine("Podaj rok ...");
             int number4 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine( number4 >=0 ? $"{number4} jest liczbą dodatnią" : $"{number4} jest liczbą ujemną");
 
 
 
