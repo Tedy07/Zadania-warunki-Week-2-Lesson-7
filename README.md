@@ -1,0 +1,1 @@
+# Zadania warunki Week 2 Lesson 7
