@@ -52,58 +52,47 @@ namespace Zadania_warunki_Week_2_Lesson_7
 
             // 4. Napisz program w C#, który sprawdzi czy podany przez użytkownika rok jest rokiem przestępnym.
 
-            Console.WriteLine("\nZadanie nr 4");
+            //Console.WriteLine("\nZadanie nr 4");
+
+            //Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
+            //Console.WriteLine("Podaj rok ...");
+            //int year = int.Parse(Console.ReadLine());
+
+            //int number4 = year % 4;
+            //int number44 = year % 400;
+            //int number444 = year % 100;
+            //// sprawdzamy modulo z podanego roku
+
+            //if (number4 == 0)
+            //{
+            //    if (number44 == 0 && number444 == 0)
+            //    {
+            //        Console.WriteLine($"{year} jest rokiem przestępnym");
+            //    }
+            //    else if ((number4 == 0) && (number44 != 0 && number444 != 0))
+            //    {
+            //        Console.WriteLine($"{year} jest rokiem przestępnym");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{year} NIE jest rokiem przestępnym");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{year} NIE jest rokiem przestępnym");
+            //}
+
+            // 5. Napisz program w C#, który sprawdzi czy podany przez użytkownika wiek uprawnia go do ubiegania się o stanowisko posła, premiera, sentarora,prezydenta.
+
+            Console.WriteLine("\nZadanie nr 5");
 
             Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
             Console.WriteLine("Podaj rok ...");
-            int year = int.Parse(Console.ReadLine());
-
-            int number4 = year % 4;
-            int number44 = year % 400;
-            int number444 = year % 100;
-            // sprawdzamy modulo z podanego roku
-
-            Console.WriteLine(number4);
-            Console.WriteLine(number44);
-            Console.WriteLine(number444);
-
-            if (number4 == 0)
-            {
-                if (number44 == 0 && number444 == 0)
-                {
-
-                    Console.WriteLine($"{year} jest rokiem przestępnym");
-
-                }
-                else if ((number4 == 0) && (number44 != 0 && number444 != 0))
-                {
-
-                    Console.WriteLine($"{year} jest rokiem przestępnym");
-                }
-                else
-                {
-
-                    Console.WriteLine($"{year} NIE jest rokiem przestępnym");
-                }
-            } else
-            {
-                Console.WriteLine($"{year} NIE jest rokiem przestępnym");
-            }
+            int age = int.Parse(Console.ReadLine());
 
 
 
-            
         }
-
-    // 5. Napisz program w C#, który sprawdzi czy podany przez użytkownika wiek uprawnia go do ubiegania się o stanowisko posła, premiera, sentarora,prezydenta.
-
-    //Console.WriteLine("\nZadanie nr 5");
-
-    //Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
-    //Console.WriteLine("Podaj rok ...");
-    //int age = int.Parse(Console.ReadLine());
-
-
-
-}
     }
+}
