@@ -109,42 +109,71 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //}
 
             // 6. Napisz program w C#, który pobierze wzrost użytkownika i przypisze mu wymyśloną kategorię wzrostu.
-            Console.WriteLine("\nZadanie nr 6");
+            //Console.WriteLine("\nZadanie nr 6");
 
-            Console.WriteLine("Sprawdz w jakiej grupie znajdujesz się według wzrost.");
-            Console.WriteLine("\nPodaj wzrost ...");
-            int height = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Sprawdz w jakiej grupie znajdujesz się według wzrost.");
+            //Console.WriteLine("\nPodaj wzrost ...");
+            //int height = int.Parse(Console.ReadLine());
 
-            if ((height >= 0) && (height <= 30))
-            {
-                Console.WriteLine("Jeszcze się nie urodziłeś");
-            }
-            else if ((height >= 31) && (height <= 60))
-            {
-                Console.WriteLine("Jesteś niemowlakiem");
-            }
-            else if ((height >= 61) && (height <= 100))
-            {
-                Console.WriteLine("Jesteś dzieckiem");
-            }
-            else if ((height >= 101) && (height <= 150))
-            {
-                Console.WriteLine("Jesteś nastolatkiem");
-            }
-            else if (height >= 151)
-            {
-                Console.WriteLine("Jesteś dorosły");
-            }
-            else
-            {
-                Console.WriteLine("Nie podałeś poprawnego wzrostu");
-            }
+            //if ((height >= 0) && (height <= 30))
+            //{
+            //    Console.WriteLine("Jeszcze się nie urodziłeś");
+            //}
+            //else if ((height >= 31) && (height <= 60))
+            //{
+            //    Console.WriteLine("Jesteś niemowlakiem");
+            //}
+            //else if ((height >= 61) && (height <= 100))
+            //{
+            //    Console.WriteLine("Jesteś dzieckiem");
+            //}
+            //else if ((height >= 101) && (height <= 150))
+            //{
+            //    Console.WriteLine("Jesteś nastolatkiem");
+            //}
+            //else if (height >= 151)
+            //{
+            //    Console.WriteLine("Jesteś dorosły");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Nie podałeś poprawnego wzrostu");
+            //}
 
-            // 7. Napisz program w C#, który pobierze 3 liczby od użytkownika i sprawdzi,która jest największa.
+            // 7. Napisz program w C#, który pobierze 3 liczby od użytkownika i sprawdzi, która jest największa.
+            Console.WriteLine("\nZadanie nr 7");
 
-            Console.WriteLine("Sprawdz ,która liczba jest największa");
-            Console.WriteLine("\nPodaj wzrost ...");
+            Console.WriteLine("Program pobierze 3 liczby i sprawdzi, która jest największa.");
+            Console.WriteLine("\nPodaj pierwszą liczbę ...");
             int numberOne = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Podaj drugą liczbę ...");
+            int numberTwo = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Podaj trzecią liczbę ...");
+            int numberThree = int.Parse(Console.ReadLine());
+
+            if (numberOne >= numberTwo)
+            {
+                if (numberOne >= numberThree)
+                {
+                    Console.WriteLine($"{numberOne} jest największą z podanych.");
+                } else
+                {
+                    Console.WriteLine($"{numberThree} jest największą z podanych.");
+                }
+            }
+            else if (numberTwo >= numberThree) 
+            {
+                Console.WriteLine($"{numberTwo} jest największą z podanych.");
+
+            } else
+            {
+                Console.WriteLine($"{numberThree} jest największą z podanych.");
+            }
+            
+
+            
 
 
 
