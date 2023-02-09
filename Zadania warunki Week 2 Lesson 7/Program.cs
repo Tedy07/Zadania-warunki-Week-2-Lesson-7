@@ -203,7 +203,13 @@ namespace Zadania_warunki_Week_2_Lesson_7
                 Console.WriteLine("Kandydat NIE dopuszczony do rekrutacji");
             }
 
+            // 9. Napisz program, który odczyta temperaturę i zwróci nazwę jak w poniższych kryteriach
+.
+            Console.WriteLine("\nZadanie nr 8");
 
+            Console.WriteLine("Program sprawdza czy kandydat może ubiegać się o miejsce na studiach.");
+            Console.WriteLine("\nPodaj wynik z matury z matematyki ...");
+            int mathematics = int.Parse(Console.ReadLine());
 
 
 
