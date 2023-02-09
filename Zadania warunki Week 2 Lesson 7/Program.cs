@@ -175,44 +175,54 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //}
 
             // 8. Napisz program, który sprawdzi, czy kandydat może ubiegać się o miejsce na studiach.
-            Console.WriteLine("\nZadanie nr 8");
+            //    Console.WriteLine("\nZadanie nr 8");
 
-            Console.WriteLine("Program sprawdza czy kandydat może ubiegać się o miejsce na studiach.");
-            Console.WriteLine("\nPodaj wynik z matury z matematyki ...");
-            int mathematics = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Program sprawdza czy kandydat może ubiegać się o miejsce na studiach.");
+            //    Console.WriteLine("\nPodaj wynik z matury z matematyki ...");
+            //    int mathematics = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Podaj wynik z matury z fizyki ...");
-            int physics = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Podaj wynik z matury z fizyki ...");
+            //    int physics = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nPodaj wynik z matury z chemii ...");
-            int chemistry = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Podaj wynik z matury z chemii ...");
+            //    int chemistry = int.Parse(Console.ReadLine());
 
-            int score1 = mathematics + physics + chemistry;
+            //    int score1 = mathematics + physics + chemistry;
 
 
-            if ((mathematics > 70) && (physics > 55) && (chemistry > 45) && (score1 > 180))
+            //    if ((mathematics > 70) && (physics > 55) && (chemistry > 45) && (score1 > 180))
+            //    {
+            //        Console.WriteLine("Kandydat dopuszczony do rekrutacji");
+            //    }
+            //    else if (((mathematics + physics) > 150) || ((mathematics + chemistry) > 150))
+            //    {
+            //        Console.WriteLine("Kandydat dopuszczony do rekrutacji");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Kandydat NIE dopuszczony do rekrutacji");
+            //    }
+
+            //9.Napisz program, który odczyta temperaturę i zwróci odpowiednią nazwę.
+
+            Console.WriteLine("\nZadanie nr 9");
+
+            Console.WriteLine("Program, który odczyta temperaturę i zwróci odpowiednią nazwę.");
+            Console.WriteLine("\nPodaj temperaturę ...");
+            int temp = int.Parse(Console.ReadLine());
+
+            switch (temp)
             {
-                Console.WriteLine("Kandydat dopuszczony do rekrutacji");
+                case : Console.WriteLine()
+
+
             }
-            else if (((mathematics + physics) > 150) || ((mathematics + chemistry) > 150))
-            {
-                Console.WriteLine("Kandydat dopuszczony do rekrutacji");
 
-            } else
-            {
-                Console.WriteLine("Kandydat NIE dopuszczony do rekrutacji");
-            }
 
-            // 9. Napisz program, który odczyta temperaturę i zwróci nazwę jak w poniższych kryteriach
-.
-            Console.WriteLine("\nZadanie nr 8");
-
-            Console.WriteLine("Program sprawdza czy kandydat może ubiegać się o miejsce na studiach.");
-            Console.WriteLine("\nPodaj wynik z matury z matematyki ...");
-            int mathematics = int.Parse(Console.ReadLine());
 
 
 
         }
+
     }
 }
