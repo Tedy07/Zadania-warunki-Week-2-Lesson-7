@@ -140,6 +140,11 @@ namespace Zadania_warunki_Week_2_Lesson_7
                 Console.WriteLine("Nie podałeś poprawnego wzrostu");
             }
 
+            // 7. Napisz program w C#, który pobierze 3 liczby od użytkownika i sprawdzi,która jest największa.
+
+            Console.WriteLine("Sprawdz ,która liczba jest największa");
+            Console.WriteLine("\nPodaj wzrost ...");
+            int numberOne = int.Parse(Console.ReadLine());
 
 
 
