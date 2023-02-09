@@ -85,28 +85,63 @@ namespace Zadania_warunki_Week_2_Lesson_7
 
             // 5. Napisz program w C#, który sprawdzi czy podany przez użytkownika wiek uprawnia go do ubiegania się o stanowisko posła, premiera, sentarora,prezydenta.
 
-            Console.WriteLine("\nZadanie nr 5");
+            //Console.WriteLine("\nZadanie nr 5");
 
-            Console.WriteLine("Jaki wiek uprawnia do ubiegania się o stanowisko posła, sentarora, premiera, prezydenta?");
-            Console.WriteLine("\nPodaj wiek osoby ...");
-            int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Jaki wiek uprawnia do ubiegania się o stanowisko posła, sentarora, premiera, prezydenta?");
+            //Console.WriteLine("\nPodaj wiek osoby ...");
+            //int age = int.Parse(Console.ReadLine());
 
-            if (age >= 35)
+            //if (age >= 35)
+            //{
+            //    Console.WriteLine("Możesz zostać prezydentem, premierem, senatorem lub posłem.");
+            //}
+            //else if (age >= 30)
+            //{
+            //    Console.WriteLine("Możesz zostać premierem, senatorem lub posłem.");
+            //}
+            //else if (age >= 21)
+            //{
+            //    Console.WriteLine("Możesz zostać posłem.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Jesteś zbyt młody aby zostać prezydentem, premierem, senatorem lub posłem.");
+            //}
+
+            // 6. Napisz program w C#, który pobierze wzrost użytkownika i przypisze mu wymyśloną kategorię wzrostu.
+            Console.WriteLine("\nZadanie nr 6");
+
+            Console.WriteLine("Sprawdz w jakiej grupie znajdujesz się według wzrost.");
+            Console.WriteLine("\nPodaj wzrost ...");
+            int height = int.Parse(Console.ReadLine());
+
+            if ((height >= 0) && (height <= 30))
             {
-                Console.WriteLine("Możesz zostać prezydentem, premierem, senatorem lub posłem.");
+                Console.WriteLine("Jeszcze się nie urodziłeś");
             }
-            else if (age >= 30)
+            else if ((height >= 31) && (height <= 60))
             {
-                Console.WriteLine("Możesz zostać premierem, senatorem lub posłem.");
+                Console.WriteLine("Jesteś niemowlakiem");
             }
-            else if (age >= 21)
+            else if ((height >= 61) && (height <= 100))
             {
-                Console.WriteLine("Możesz zostać posłem.");
+                Console.WriteLine("Jesteś dzieckiem");
+            }
+            else if ((height >= 101) && (height <= 150))
+            {
+                Console.WriteLine("Jesteś nastolatkiem");
+            }
+            else if (height >= 151)
+            {
+                Console.WriteLine("Jesteś dorosły");
             }
             else
             {
-                Console.WriteLine("Jesteś zbyt młody aby zostać prezydentem, premierem, senatorem lub posłem.");
+                Console.WriteLine("Nie podałeś poprawnego wzrostu");
             }
+
+
+
 
 
 
