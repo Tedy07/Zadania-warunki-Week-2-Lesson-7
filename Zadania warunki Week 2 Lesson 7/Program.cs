@@ -249,6 +249,19 @@ namespace Zadania_warunki_Week_2_Lesson_7
             Console.WriteLine("Podaj trzecią długość ...");
             int length3 = int.Parse(Console.ReadLine());
 
+            if ((length1 + length2 > length3) && (length1 + length3 > length3) && (length2 + length3 > length3))
+            {
+                Console.WriteLine("Można zbudować trójkąt");
+            } else 
+            {
+                Console.WriteLine("NIE m ożna zbudować trójkąt");
+            } 
+            
+
+
+
+
+
 
 
 
