@@ -141,38 +141,38 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //}
 
             // 7. Napisz program w C#, który pobierze 3 liczby od użytkownika i sprawdzi, która jest największa.
-            Console.WriteLine("\nZadanie nr 7");
+            //Console.WriteLine("\nZadanie nr 7");
 
-            Console.WriteLine("Program pobierze 3 liczby i sprawdzi, która jest największa.");
-            Console.WriteLine("\nPodaj pierwszą liczbę ...");
-            int numberOne = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Program pobierze 3 liczby i sprawdzi, która jest największa.");
+            //Console.WriteLine("\nPodaj pierwszą liczbę ...");
+            //int numberOne = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Podaj drugą liczbę ...");
-            int numberTwo = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Podaj drugą liczbę ...");
+            //int numberTwo = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Podaj trzecią liczbę ...");
-            int numberThree = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Podaj trzecią liczbę ...");
+            //int numberThree = int.Parse(Console.ReadLine());
 
-            if (numberOne >= numberTwo)
-            {
-                if (numberOne >= numberThree)
-                {
-                    Console.WriteLine($"{numberOne} jest największą z podanych.");
-                }
-                else
-                {
-                    Console.WriteLine($"{numberThree} jest największą z podanych.");
-                }
-            }
-            else if (numberTwo >= numberThree)
-            {
-                Console.WriteLine($"{numberTwo} jest największą z podanych.");
+            //if (numberOne >= numberTwo)
+            //{
+            //    if (numberOne >= numberThree)
+            //    {
+            //        Console.WriteLine($"{numberOne} jest największą z podanych.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{numberThree} jest największą z podanych.");
+            //    }
+            //}
+            //else if (numberTwo >= numberThree)
+            //{
+            //    Console.WriteLine($"{numberTwo} jest największą z podanych.");
 
-            }
-            else
-            {
-                Console.WriteLine($"{numberThree} jest największą z podanych.");
-            }
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{numberThree} jest największą z podanych.");
+            //}
 
             // 8. Napisz program, który sprawdzi, czy kandydat może ubiegać się o miejsce na studiach.
             Console.WriteLine("\nZadanie nr 8");
