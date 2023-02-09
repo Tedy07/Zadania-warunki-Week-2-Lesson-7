@@ -237,25 +237,25 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //}
 
             //10.Napisz program, który sprawdzi, czy z 3 podanych długości można stworzyć trójkąt.
-            Console.WriteLine("\nZadanie nr 10");
+            //Console.WriteLine("\nZadanie nr 10");
 
-            Console.WriteLine("Program, który sprawdzi czy z 3 podanych długości można stworzyć trójkąt.");
-            Console.WriteLine("\nPodaj pierwszy długość ...");
-            int length1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Program, który sprawdzi czy z 3 podanych długości można stworzyć trójkąt.");
+            //Console.WriteLine("\nPodaj pierwszy długość ...");
+            //int length1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Podaj drugą długość ...");
-            int length2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Podaj drugą długość ...");
+            //int length2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Podaj trzecią długość ...");
-            int length3 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Podaj trzecią długość ...");
+            //int length3 = int.Parse(Console.ReadLine());
 
-            if ((length1 + length2 > length3) && (length1 + length3 > length3) && (length2 + length3 > length1))
-            {
-                Console.WriteLine("Można zbudować trójkąt");
-            } else 
-            {
-                Console.WriteLine("NIE można zbudować trójkąt");
-            }
+            //if ((length1 + length2 > length3) && (length1 + length3 > length3) && (length2 + length3 > length1))
+            //{
+            //    Console.WriteLine("Można zbudować trójkąt");
+            //} else 
+            //{
+            //    Console.WriteLine("NIE można zbudować trójkąt");
+            //}
 
             //11.Napisz program, który zmieni ocenę ucznia na jej opis wg podanej tabeli:
             Console.WriteLine("\nZadanie nr 11");
