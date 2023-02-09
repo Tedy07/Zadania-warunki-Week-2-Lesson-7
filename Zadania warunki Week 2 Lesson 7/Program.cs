@@ -34,7 +34,7 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //Console.WriteLine("\nZadanie nr 2");
 
             //Console.WriteLine("Sprawdz czy dana liczba jest parzysta.");
-            //Console.WriteLine("Podaj liczbę ...");
+            //Console.WriteLine("\nPodaj liczbę ...");
             //int number2 = int.Parse(Console.ReadLine());
 
             //double result1 = number2 % 2;
@@ -45,7 +45,7 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //Console.WriteLine("\nZadanie nr 3");
 
             //Console.WriteLine("Sprawdz czy dana liczba jest dodatnia.");
-            //Console.WriteLine("Podaj liczbę ...");
+            //Console.WriteLine("\nPodaj liczbę ...");
             //int number3 = int.Parse(Console.ReadLine());
 
             //Console.WriteLine(number3 >= 0 ? $"{number3} jest liczbą dodatnią" : $"{number3} jest liczbą ujemną");
@@ -55,7 +55,7 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //Console.WriteLine("\nZadanie nr 4");
 
             //Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
-            //Console.WriteLine("Podaj rok ...");
+            //Console.WriteLine("\nPodaj rok ...");
             //int year = int.Parse(Console.ReadLine());
 
             //int number4 = year % 4;
@@ -87,9 +87,26 @@ namespace Zadania_warunki_Week_2_Lesson_7
 
             Console.WriteLine("\nZadanie nr 5");
 
-            Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
-            Console.WriteLine("Podaj rok ...");
+            Console.WriteLine("Jaki wiek uprawnia do ubiegania się o stanowisko posła, sentarora, premiera, prezydenta?");
+            Console.WriteLine("\nPodaj wiek osoby ...");
             int age = int.Parse(Console.ReadLine());
+
+            if (age >= 35)
+            {
+                Console.WriteLine("Możesz zostać prezydentem, premierem, senatorem lub posłem.");
+            }
+            else if (age >= 30)
+            {
+                Console.WriteLine("Możesz zostać premierem, senatorem lub posłem.");
+            }
+            else if (age >= 21)
+            {
+                Console.WriteLine("Możesz zostać posłem.");
+            }
+            else
+            {
+                Console.WriteLine("Jesteś zbyt młody aby zostać prezydentem, premierem, senatorem lub posłem.");
+            }
 
 
 
