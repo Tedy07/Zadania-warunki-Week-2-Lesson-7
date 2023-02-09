@@ -56,9 +56,27 @@ namespace Zadania_warunki_Week_2_Lesson_7
 
             Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
             Console.WriteLine("Podaj rok ...");
-            int number4 = int.Parse(Console.ReadLine());
+            int year = int.Parse(Console.ReadLine());
+            
+            int number4 = year % 4;
+            int number44 = year % 400;
+             // sprawdzamy modulo z podanego roku
 
+            if (number4 == 0 && number44 == 0)
+            {
+                Console.WriteLine($"{year} jest rokiem przestępnym");
+            } else
+            {
+                Console.WriteLine($"{year} jest rokiem przestępnym");
+            }
 
+            // 5. Napisz program w C#, który sprawdzi czy podany przez użytkownika wiek uprawnia go do ubiegania się o stanowisko posła, premiera, sentarora,prezydenta.
+
+            Console.WriteLine("\nZadanie nr 4");
+
+            Console.WriteLine("Czy podany rok jest rokiem przestępnym?");
+            Console.WriteLine("Podaj rok ...");
+            int year = int.Parse(Console.ReadLine());
 
 
 
