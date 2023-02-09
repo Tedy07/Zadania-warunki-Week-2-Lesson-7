@@ -211,12 +211,39 @@ namespace Zadania_warunki_Week_2_Lesson_7
             Console.WriteLine("\nPodaj temperaturę ...");
             int temp = int.Parse(Console.ReadLine());
 
-            switch (temp)
+            if (temp < 0)
             {
-                case : Console.WriteLine()
-
-
+                Console.WriteLine("bardzo zimno");
             }
+            else if ((temp >= 0) && (temp < 10))
+            {
+
+                Console.WriteLine("zimno");
+            }
+            else if ((temp >= 10) && (temp < 20))
+            {
+                Console.WriteLine("chłodno");
+            }
+            else if ((temp >= 20) && (temp < 30))
+            {
+                Console.WriteLine("w sam raz");
+            }
+            else if ((temp >= 30) && (temp < 40))
+            {
+                Console.WriteLine("zaczyna być słabo, bo gorąco");
+            }
+            else if (temp >= 40)
+            {
+                Console.WriteLine("a weź, wyprowadzam się na Alaskę");
+            }
+
+            //10.Napisz program, który odczyta temperaturę i zwróci odpowiednią nazwę.
+
+            Console.WriteLine("\nZadanie nr 10");
+
+            Console.WriteLine("Program, który odczyta temperaturę i zwróci odpowiednią nazwę.");
+            Console.WriteLine("\nPodaj temperaturę ...");
+            int temp = int.Parse(Console.ReadLine());
 
 
 
