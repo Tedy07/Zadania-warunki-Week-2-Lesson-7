@@ -204,47 +204,50 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //    }
 
             //9.Napisz program, który odczyta temperaturę i zwróci odpowiednią nazwę.
+            //Console.WriteLine("\nZadanie nr 9");
 
-            Console.WriteLine("\nZadanie nr 9");
+            //Console.WriteLine("Program, który odczyta temperaturę i zwróci odpowiednią nazwę.");
+            //Console.WriteLine("\nPodaj temperaturę ...");
+            //int temp = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Program, który odczyta temperaturę i zwróci odpowiednią nazwę.");
-            Console.WriteLine("\nPodaj temperaturę ...");
-            int temp = int.Parse(Console.ReadLine());
+            //if (temp < 0)
+            //{
+            //    Console.WriteLine("bardzo zimno");
+            //}
+            //else if ((temp >= 0) && (temp < 10))
+            //{
 
-            if (temp < 0)
-            {
-                Console.WriteLine("bardzo zimno");
-            }
-            else if ((temp >= 0) && (temp < 10))
-            {
+            //    Console.WriteLine("zimno");
+            //}
+            //else if ((temp >= 10) && (temp < 20))
+            //{
+            //    Console.WriteLine("chłodno");
+            //}
+            //else if ((temp >= 20) && (temp < 30))
+            //{
+            //    Console.WriteLine("w sam raz");
+            //}
+            //else if ((temp >= 30) && (temp < 40))
+            //{
+            //    Console.WriteLine("zaczyna być słabo, bo gorąco");
+            //}
+            //else if (temp >= 40)
+            //{
+            //    Console.WriteLine("a weź, wyprowadzam się na Alaskę");
+            //}
 
-                Console.WriteLine("zimno");
-            }
-            else if ((temp >= 10) && (temp < 20))
-            {
-                Console.WriteLine("chłodno");
-            }
-            else if ((temp >= 20) && (temp < 30))
-            {
-                Console.WriteLine("w sam raz");
-            }
-            else if ((temp >= 30) && (temp < 40))
-            {
-                Console.WriteLine("zaczyna być słabo, bo gorąco");
-            }
-            else if (temp >= 40)
-            {
-                Console.WriteLine("a weź, wyprowadzam się na Alaskę");
-            }
-
-            //10.Napisz program, który odczyta temperaturę i zwróci odpowiednią nazwę.
-
+            //10.Napisz program, który sprawdzi, czy z 3 podanych długości można stworzyć trójkąt.
             Console.WriteLine("\nZadanie nr 10");
 
-            Console.WriteLine("Program, który odczyta temperaturę i zwróci odpowiednią nazwę.");
-            Console.WriteLine("\nPodaj temperaturę ...");
-            int temp = int.Parse(Console.ReadLine());
+            Console.WriteLine("Program, który sprawdzi czy z 3 podanych długości można stworzyć trójkąt.");
+            Console.WriteLine("\nPodaj pierwszy długość ...");
+            int length1 = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Podaj drugą długość ...");
+            int length2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Podaj trzecią długość ...");
+            int length3 = int.Parse(Console.ReadLine());
 
 
 
