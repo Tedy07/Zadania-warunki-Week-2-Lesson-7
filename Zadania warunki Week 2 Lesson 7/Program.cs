@@ -288,27 +288,53 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //        break;
 
             // inny sposób wykonania zadania 11, wersja druga 
-        //    Console.WriteLine("Podaj ocenę jaką uzyskał uczeń ...");
-        //    int ratingB = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Podaj ocenę jaką uzyskał uczeń ...");
+            //    int ratingB = int.Parse(Console.ReadLine());
 
-        //    var resultB = ratingB switch
-        //    {
-        //        1 => "niedostateczny",
-        //        2 => "dopuszczający",
-        //        3 => "dostateczny",
-        //        4 => "dobry",
-        //        5 => "bardzo dobry",
-        //        6 => "celujący",
-        //        _ => "Podałeś nieprawidłową ocenę",
-        //    };
-        //    Console.WriteLine($"{resultB}");
-        //}
+            //    var resultB = ratingB switch
+            //    {
+            //        1 => "niedostateczny",
+            //        2 => "dopuszczający",
+            //        3 => "dostateczny",
+            //        4 => "dobry",
+            //        5 => "bardzo dobry",
+            //        6 => "celujący",
+            //        _ => "Podałeś nieprawidłową ocenę",
+            //    };
+            //    Console.WriteLine($"{resultB}");
+            // 12. Napisz program, który pobierze numer dnia tygodnia i wyświetli jego nazwę.
+            Console.WriteLine("Podaj numer dnia tygodnia ...");
+            int numberDay = int.Parse(Console.ReadLine());
 
-         // 12. Napisz program, który zmieni ocenę ucznia na jej opi
-        
+            var resultWeekDay = numberDay switch
+            {
+                1 => "poniedziałek",
+                2 => "wtorek",
+                3 => "środa",
+                4 => "czwartek",
+                5 => "piątek",
+                6 => "sobota",
+                7 => "niedziela",
+                _ => "Podałeś niewłąściwą cyfrę",
+            };
+            Console.WriteLine($"{numberDay}. {resultWeekDay}");
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
