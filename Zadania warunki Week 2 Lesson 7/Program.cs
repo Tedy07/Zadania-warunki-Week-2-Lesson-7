@@ -303,36 +303,45 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //    };
             //    Console.WriteLine($"{resultB}");
             // 12. Napisz program, który pobierze numer dnia tygodnia i wyświetli jego nazwę.
-            Console.WriteLine("Podaj numer dnia tygodnia ...");
-            int numberDay = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Podaj numer dnia tygodnia ...");
+            //int numberDay = int.Parse(Console.ReadLine());
 
-            var resultWeekDay = numberDay switch
+            //var resultWeekDay = numberDay switch
+            //{
+            //    1 => "poniedziałek",
+            //    2 => "wtorek",
+            //    3 => "środa",
+            //    4 => "czwartek",
+            //    5 => "piątek",
+            //    6 => "sobota",
+            //    7 => "niedziela",
+            //    _ => "Podałeś niewłąściwą cyfrę",
+            //};
+            //Console.WriteLine($"{numberDay}. {resultWeekDay}");
+
+            // 13. Napisz program, który będzie posiadał proste menu i będzie prostym kalkulatorem.
+            Console.WriteLine("Podaj pierwszą liczbę ...");
+            double numberFirst = int.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj drugą liczbę ...");
+            double numberSecend = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nPodaj numer operacji do wykonania:");
+            Console.WriteLine("1. Dodawanie");
+            Console.WriteLine("2. Odejmowanie");
+            Console.WriteLine("3. Mnożenie");
+            Console.WriteLine("4. Dzielenie\n");
+
+            int selected = int.Parse(Console.ReadLine());
+
+            double reaction = selected switch
             {
-                1 => "poniedziałek",
-                2 => "wtorek",
-                3 => "środa",
-                4 => "czwartek",
-                5 => "piątek",
-                6 => "sobota",
-                7 => "niedziela",
-                _ => "Podałeś niewłąściwą cyfrę",
+                1 => (numberFirst + numberSecend),
+                2 => (numberFirst - numberSecend),
+                3 => (numberFirst * numberSecend),
+                4 => (numberFirst / numberSecend),
+                _ => 0,
             };
-            Console.WriteLine($"{numberDay}. {resultWeekDay}");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            Console.WriteLine($"Twój wynik to {reaction}");
 
 
         }
