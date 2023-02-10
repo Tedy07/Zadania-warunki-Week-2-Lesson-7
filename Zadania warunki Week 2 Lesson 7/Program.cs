@@ -258,20 +258,57 @@ namespace Zadania_warunki_Week_2_Lesson_7
             //}
 
             //11.Napisz program, który zmieni ocenę ucznia na jej opis wg podanej tabeli:
-            Console.WriteLine("\nZadanie nr 11");
+            //Console.WriteLine("\nZadanie nr 11");
 
-            Console.WriteLine("Program, który zmieni ocenę ucznia na jej opis.");
-            //Console.WriteLine("\nPodaj ocenę ...");
+            //Console.WriteLine("Podaj ocenę jaką uzyskał uczeń ...");
             //int rating = int.Parse(Console.ReadLine());
 
+            //switch (rating)
+            //{
+            //    case 1:
+            //        Console.WriteLine("niedostateczny");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("dopuszczający");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("dostateczny");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("dobry");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("bardzo dobry");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("celujący");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Podałeś nieprawidłową ocenę");
+            //        break;
+
+            // inny sposób wykonania zadania 11, wersja druga 
+        //    Console.WriteLine("Podaj ocenę jaką uzyskał uczeń ...");
+        //    int ratingB = int.Parse(Console.ReadLine());
+
+        //    var resultB = ratingB switch
+        //    {
+        //        1 => "niedostateczny",
+        //        2 => "dopuszczający",
+        //        3 => "dostateczny",
+        //        4 => "dobry",
+        //        5 => "bardzo dobry",
+        //        6 => "celujący",
+        //        _ => "Podałeś nieprawidłową ocenę",
+        //    };
+        //    Console.WriteLine($"{resultB}");
+        //}
+
+         // 12. Napisz program, który zmieni ocenę ucznia na jej opi
+        
 
 
 
-
-
-
-
-        }
 
     }
 }
