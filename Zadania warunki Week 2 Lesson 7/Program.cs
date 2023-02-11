@@ -332,7 +332,7 @@ namespace Zadania_warunki_Week_2_Lesson_7
 
             int selected = int.Parse(Console.ReadLine());
 
-            var reaction = selected switch
+            var result = selected switch
             {
                 1 => (numberFirst + numberSecend),
                 2 => (numberFirst - numberSecend),
@@ -340,7 +340,7 @@ namespace Zadania_warunki_Week_2_Lesson_7
                 4 => (numberFirst / numberSecend),
                 _ => 0,
             };
-            Console.WriteLine($"Twój wynik to {reaction}");
+            Console.WriteLine($"Twój wynik to {result}");
         }
     }
 }
