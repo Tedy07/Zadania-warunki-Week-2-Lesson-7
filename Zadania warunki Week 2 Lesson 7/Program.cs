@@ -300,7 +300,7 @@ namespace Zadania_warunki_Week_2_Lesson_7
             Console.WriteLine($"{resultB}");
 
             // 12.Napisz program, który pobierze numer dnia tygodnia i wyświetli jego nazwę.
-            Console.WriteLine("Dzień tygodnia");
+            Console.WriteLine("\nZadanie 12. Dzień tygodnia");
 
             Console.WriteLine("\nPodaj numer dnia tygodnia ...");
 
@@ -320,7 +320,7 @@ namespace Zadania_warunki_Week_2_Lesson_7
             Console.WriteLine($"{numberDay}. {resultWeekDay}");
 
             // 13. Napisz program, który będzie posiadał proste menu i będzie prostym kalkulatorem.
-            Console.WriteLine("Prosty kalkulator");
+            Console.WriteLine("\n13. Prosty kalkulator");
            
             Console.WriteLine("\nPodaj pierwszą liczbę ...");
             double firstNumber13 = int.Parse(Console.ReadLine());
